@@ -1,0 +1,380 @@
+{
+  "quotes": [
+    {
+      "quote": "Chaudhvin ka chand ho, ya aaftaab ho? Jo bhi ho tum khuda ki kasam, lajawab ho.",
+      "artist": "Mohammed Rafi"
+    },
+    {
+      "quote": "Is this the real life? Is this just fantasy? Caught in a landslide, no escape from reality.",
+      "artist": "Queen"
+    },
+    {
+      "quote": "Tere bina zindagi se koi, shikwa, toh nahi. Tere bina zindagi bhi lekin, zindagi, toh nahi.",
+      "artist": "Lata Mangeshkar & Kishore Kumar"
+    },
+    {
+      "quote": "Yesterday, all my troubles seemed so far away. Now it looks as though they're here to stay.",
+      "artist": "The Beatles"
+    },
+    {
+      "quote": "Papa kehte hain bada naam karega, beta hamara aisa kaam karega. Magar yeh toh koi na jaane.",
+      "artist": "Udit Narayan"
+    },
+    {
+      "quote": "There's a lady who's sure all that glitters is gold and she's buying a stairway to heaven.",
+      "artist": "Led Zeppelin"
+    },
+    {
+      "quote": "Tujhe dekha toh yeh jaana sanam, pyaar hota hai deewana sanam. Ab yahan se kahan jaayein hum.",
+      "artist": "Lata Mangeshkar & Kumar Sanu"
+    },
+    {
+      "quote": "Imagine there's no heaven, it's easy if you try. No hell below us, above us only sky.",
+      "artist": "John Lennon"
+    },
+    {
+      "quote": "Jinke sar ho ishq ki chhaon, paanv ke neeche jannat hogi. Chal chaiyya chaiyya chaiyya chaiyya.",
+      "artist": "Sukhwinder Singh & Sapna Awasthi"
+    },
+    {
+      "quote": "We're just two lost souls swimming in a fish bowl, year after year, running over the same old ground.",
+      "artist": "Pink Floyd"
+    },
+    {
+      "quote": "Kal ho naa ho. Har ghadi badal rahi hai roop zindagi, chaanv hai kabhi, kabhi hai dhoop zindagi.",
+      "artist": "Sonu Nigam"
+    },
+    {
+      "quote": "You can check out any time you like, but you can never leave. Welcome to the Hotel California.",
+      "artist": "Eagles"
+    },
+    {
+      "quote": "Hothon se chhu lo tum, mera geet amar kar do. Ban jaao meet mere, meri preet amar kar do.",
+      "artist": "Jagjit Singh"
+    },
+    {
+      "quote": "Come writers and critics who prophesize with your pen and keep your eyes wide, the chance won't come again.",
+      "artist": "Bob Dylan"
+    },
+    {
+      "quote": "Pehla nasha, pehla khumaar, naya pyaar hai naya intezaar. Kar loon main kya apna haal, ae dil-e-bekaraar.",
+      "artist": "Udit Narayan & Sadhana Sargam"
+    },
+    {
+      "quote": "I see a red door and I want it painted black. No colors anymore, I want them to turn black.",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "quote": "Chingari koi bhadke, toh sawan use bujhaye. Sawan jo agan lagaye, use kaun bujhaye? Pathjhad jo baag ujaade.",
+      "artist": "Kishore Kumar"
+    },
+    {
+      "quote": "Hello, darkness, my old friend, I've come to talk with you again, because a vision softly creeping.",
+      "artist": "Simon & Garfunkel"
+    },
+    {
+      "quote": "Maa, tujhe salaam. Vande Mataram. Yahan vahan saara jahan dekh liya, kahin bhi tere jaisa koi nahi hai.",
+      "artist": "A. R. Rahman"
+    },
+    {
+      "quote": "It's the eye of the tiger, it's the thrill of the fight, rising up to the challenge of our rival.",
+      "artist": "Survivor"
+    },
+    {
+      "quote": "Channa Mereya, mereya. Channa Mereya, mereya beliya. O piya. Mehfil mein teri, hum na rahein jo, gham toh nahi.",
+      "artist": "Arijit Singh"
+    },
+    {
+      "quote": "I am just a poor boy, though my story's seldom told. I have squandered my resistance for some promises.",
+      "artist": "Simon & Garfunkel"
+    },
+    {
+      "quote": "Tum paas aaye, yun muskuraye, tumne na jaane kya sapne dikhaye. Ab toh mera dil, jaage na sota hai.",
+      "artist": "Alka Yagnik & Udit Narayan"
+    },
+    {
+      "quote": "You may say I'm a dreamer, but I'm not the only one. I hope someday you'll join us.",
+      "artist": "John Lennon"
+    },
+    {
+      "quote": "O Sanam, mohabbat ki kasam, milke bichad na to dastoor ho gaya. Yadon me teri main to choor ho gaya.",
+      "artist": "Lucky Ali"
+    },
+    {
+      "quote": "Ticking away the moments that make up a dull day, you fritter and waste the hours in an offhand way.",
+      "artist": "Pink Floyd"
+    },
+    {
+      "quote": "Tumse hi din hota hai, surmaiye shaam aati hai, tumse hi, tumse hi. Har ghadi saans aati hai.",
+      "artist": "Mohit Chauhan"
+    },
+    {
+      "quote": "I'm a rolling thunder, a pouring rain. I'm comin' on like a hurricane, my lightning's flashing across the sky.",
+      "artist": "AC/DC"
+    },
+    {
+      "quote": "Dil diyan gallan, karange naal naal beh ke. Ankh naale ankh nu mila ke. Tenu lakhan ton chupa ke rakhaan.",
+      "artist": "Atif Aslam"
+    },
+    {
+      "quote": "Take my hand, we'll make it, I swear. Whoa, livin' on a prayer. We will make it I swear.",
+      "artist": "Bon Jovi"
+    },
+    {
+      "quote": "Aankhon mein teri, ajab si, ajab si, adayein hain. Dil ko bana dein jo patang, saansein yeh teri.",
+      "artist": "KK"
+    },
+    {
+      "quote": "Billie Jean is not my lover, she's just a girl who claims that I am the one, but the kid is not my son.",
+      "artist": "Michael Jackson"
+    },
+    {
+      "quote": "Jaadu hai nasha hai, madhoshiyan hai. Tujhko bhula ke ab jaaun kahan. Dekhti hai jis tarah se teri nazrein.",
+      "artist": "Shreya Ghoshal"
+    },
+    {
+      "quote": "When the night has come and the land is dark, and the moon is the only light we will see.",
+      "artist": "Ben E. King"
+    },
+    {
+      "quote": "Give me some sunshine, give me some rain. Give me another chance, I wanna grow up once again.",
+      "artist": "Suraj Jagan & Sharman Joshi"
+    },
+    {
+      "quote": "Ground Control to Major Tom, your circuit's dead, there's something wrong. Can you hear me, Major Tom?",
+      "artist": "David Bowie"
+    },
+    {
+      "quote": "Tere mast mast do nain, mere dil ka le gaye chain. Mere dil ka le gaye chain, tere mast mast do nain.",
+      "artist": "Rahat Fateh Ali Khan"
+    },
+    {
+      "quote": "At first I was afraid, I was petrified. Kept thinkin' I could never live without you by my side.",
+      "artist": "Gloria Gaynor"
+    },
+    {
+      "quote": "Tu hi meri shab hai, subha hai, tu hi din hai mera. Tu hi mera rab hai, jahaan hai.",
+      "artist": "KK"
+    },
+    {
+      "quote": "When I find myself in times of trouble, Mother Mary comes to me, speaking words of wisdom, let it be.",
+      "artist": "The Beatles"
+    },
+    {
+      "quote": "Bin tere, bin tere, bin tere. Koi khalish hai hawayon mein bin tere. Ajnabi se huye hain kyun pal.",
+      "artist": "Shafqat Amanat Ali"
+    },
+    {
+      "quote": "And in the end, the love you take is equal to the love you make. Her majesty's a pretty nice girl.",
+      "artist": "The Beatles"
+    },
+    {
+      "quote": "Roobaroo, roshni hai. Roobaroo, har jagah. Jo kal tha yahan, hai abhi bhi yahan, gum hua kuch nahi.",
+      "artist": "A. R. Rahman & Naresh Iyer"
+    },
+    {
+      "quote": "Freedom's just another word for nothin' left to lose. Nothin', don't mean nothin' hon' if it ain't free.",
+      "artist": "Janis Joplin"
+    },
+    {
+      "quote": "Kyun main jaagoon, jab tu sota hai. Aasmaan bhi rota hai. Kyun main jaagoon, jaagoon, jaagoon. Why do I stay awake?",
+      "artist": "Shaan"
+    },
+    {
+      "quote": "There is a house in New Orleans they call the Rising Sun, and it's been the ruin of many a poor boy.",
+      "artist": "The Animals"
+    },
+    {
+      "quote": "Saadda haq, aithe rakh. Na na na na. O Eco-friendly, nature-de-rakhwale. O Fowler-ke-chimmache, Goggle-paa-ke-ghumnewale.",
+      "artist": "Mohit Chauhan"
+    },
+    {
+      "quote": "I've paid my dues, time after time. I've done my sentence, but committed no crime and made bad mistakes.",
+      "artist": "Queen"
+    },
+    {
+      "quote": "Bheegi bheegi si hai raatein, bheegi bheegi yaadein, bheegi bheegi baatein. Aankhon mein kaisi nami hai. Aah ha ha ha.",
+      "artist": "James"
+    },
+    {
+      "quote": "You can't always get what you want, but if you try sometimes, you might find you get what you need.",
+      "artist": "The Rolling Stones"
+    },
+    {
+      "quote": "O, meri soni, meri tamanna, jhooth nahi hai mera pyaar. Deewane se ho gayi galti, jaane do yaar.",
+      "artist": "Kishore Kumar & Asha Bhosle"
+    },
+    {
+      "quote": "Show a little faith, there's magic in the night. You ain't a beauty, but hey, you're alright.",
+      "artist": "Bruce Springsteen"
+    },
+    {
+      "quote": "Dil se re. Dil se re. Dil toh aakhir dil hai na, meethi si mushkil hai na, piya piya.",
+      "artist": "A. R. Rahman"
+    },
+    {
+      "quote": "Just a small-town girl, livin' in a lonely world. She took the midnight train goin' anywhere.",
+      "artist": "Journey"
+    },
+    {
+      "quote": "Kabira maan jaa, Kabira maan jaa. Aaja tujhko pukaare teri parchaiyan. Kaisa tu hai re nirmohi, kaisa harjaaiya.",
+      "artist": "Arijit Singh & Harshdeep Kaur"
+    },
+    {
+      "quote": "With the lights out, it's less dangerous. Here we are now, entertain us. I feel stupid and contagious.",
+      "artist": "Nirvana"
+    },
+    {
+      "quote": "Pyar hua, ikrar hua hai, pyar se phir kyun darta hai dil. Kehta hai dil, rasta mushkil, maloom nahi hai kahan manzil.",
+      "artist": "Lata Mangeshkar & Manna Dey"
+    },
+    {
+      "quote": "You've got to know when to hold 'em, know when to fold 'em, know when to walk away.",
+      "artist": "Kenny Rogers"
+    },
+    {
+      "quote": "Mera joota hai Japani, yeh patloon Englishtani. Sar pe laal topi Roosi, phir bhi dil hai Hindustani.",
+      "artist": "Mukesh"
+    },
+    {
+      "quote": "There must be some kind of way out of here, said the joker to the thief, there's too much confusion.",
+      "artist": "Bob Dylan"
+    },
+    {
+      "quote": "Zindagi ek safar hai suhana, yahan kal kya ho kisne jaana. Chand taaron se chalna hai aage.",
+      "artist": "Kishore Kumar"
+    },
+    {
+      "quote": "I'm still standing better than I ever did. Looking like a true survivor, feeling like a little kid.",
+      "artist": "Elton John"
+    },
+    {
+      "quote": "Main tenu samjhawan ki, na tere bina lagda jee. Tu ki jaane pyaar mera, main karoon intezar tera.",
+      "artist": "Arijit Singh & Shreya Ghoshal"
+    },
+    {
+      "quote": "You are the dancing queen, young and sweet, only seventeen. Dancing queen, feel the beat from the tambourine.",
+      "artist": "ABBA"
+    },
+    {
+      "quote": "Kabhi kabhi mere dil mein khayal aata hai, ki jaise tujhko banaya gaya hai mere liye.",
+      "artist": "Mukesh"
+    },
+    {
+      "quote": "The truth is you don't know what is going to happen tomorrow. Life is a crazy ride, nothing is guaranteed.",
+      "artist": "Eminem"
+    },
+    {
+      "quote": "Chalte chalte, mere yeh geet yaad rakhna. Kabhi alvida na kehna. Rote hanste, bas yunhi tum gungunate rehna.",
+      "artist": "Kishore Kumar"
+    },
+    {
+      "quote": "The screen door slams, Mary's dress sways. Like a vision she dances across the porch as the radio plays.",
+      "artist": "Bruce Springsteen"
+    },
+    {
+      "quote": "O saathi re, tere bina bhi kya jeena. Phoolon mein, kaliyon mein, sapno ki galiyon mein, tere bina kuch kahin na.",
+      "artist": "Asha Bhosle"
+    },
+    {
+      "quote": "In my life, I love you more. Though I know I'll never lose affection for people and things before.",
+      "artist": "The Beatles"
+    },
+    {
+      "quote": "Tum hi ho. Ab tum hi ho, zindagi ab tum hi ho. Chain bhi, mera dard bhi, meri aashiqui ab tum hi ho.",
+      "artist": "Arijit Singh"
+    },
+    {
+      "quote": "Look, if you had one shot or one opportunity to seize everything you ever wanted in one single moment.",
+      "artist": "Eminem"
+    },
+    {
+      "quote": "Main agar kahoon, tumsa haseen, kaayanaat mein nahi hai kahin. Taareef yeh bhi toh, sach hai kuch bhi nahi.",
+      "artist": "Sonu Nigam & Shreya Ghoshal"
+    },
+    {
+      "quote": "I get by with a little help from my friends. Mm, get high with a little help from my friends.",
+      "artist": "The Beatles"
+    },
+    {
+      "quote": "Dooba dooba rehta hoon yaadon mein teri, dewana ban gaya hoon main chahat mein teri. Ab din guzarte nahi.",
+      "artist": "Mohit Chauhan"
+    },
+    {
+      "quote": "Do you remember the 21st night of September? Love was changin' the minds of pretenders, while chasin' clouds away.",
+      "artist": "Earth, Wind & Fire"
+    },
+    {
+      "quote": "Ek ladki ko dekha toh aisa laga, jaise khilta gulaab, jaise shayar ka khwaab, jaise ujli kiran.",
+      "artist": "Kumar Sanu"
+    },
+    {
+      "quote": "It was a teenage wedding and the old folks wished them well. You could see Pierre did truly love the mademoiselle.",
+      "artist": "Chuck Berry"
+    },
+    {
+      "quote": "Muskurane ki wajah tum ho, gungunane ki wajah tum ho. Jiya jaaye na, jaaye na, jaaye na, o re piya re.",
+      "artist": "Arijit Singh"
+    },
+    {
+      "quote": "You make me feel like a natural woman. When my soul was in the lost and found, you came along to claim it.",
+      "artist": "Aretha Franklin"
+    },
+    {
+      "quote": "Ajeeb daastaan hai yeh, kahan shuru kahan khatam. Yeh manzilein hain kaunsi, na woh samajh sake na hum.",
+      "artist": "Lata Mangeshkar"
+    },
+    {
+      "quote": "Oh, somewhere over the rainbow, way up high. There's a land that I heard of once in a lullaby.",
+      "artist": "Judy Garland"
+    },
+    {
+      "quote": "Yeh dosti, hum nahi todenge. Todenge dam magar, tera saath na chhodenge. Meri jeet teri jeet, teri haar meri haar.",
+      "artist": "Kishore Kumar & Manna Dey"
+    },
+    {
+      "quote": "You are the sunshine of my life, that's why I'll always be around. You are the apple of my eye.",
+      "artist": "Stevie Wonder"
+    },
+    {
+      "quote": "Lag jaa gale, ki phir yeh haseen raat ho na ho. Shaayad phir is janam mein mulaqaat ho na ho.",
+      "artist": "Lata Mangeshkar"
+    },
+    {
+      "quote": "Who are you to judge the life I live? I know I'm not perfect and I don't live to be.",
+      "artist": "Bob Marley"
+    },
+    {
+      "quote": "Pardesi, pardesi, jaana nahi. Mujhe chhod ke, mujhe chhod ke. Pardesi mere yaara, wada nibhana.",
+      "artist": "Udit Narayan & Alka Yagnik"
+    },
+    {
+      "quote": "There is a crack, a crack in everything. That's how the light gets in. That's how the light gets in.",
+      "artist": "Leonard Cohen"
+    },
+    {
+      "quote": "Piyu bole, piya bole, kya yeh bole jaanu na. Jiya dole, haule haule, kyun yeh dole jaanu na.",
+      "artist": "Sonu Nigam & Shreya Ghoshal"
+    },
+    {
+      "quote": "I hurt myself today to see if I still feel. I focus on the pain, the only thing that's real.",
+      "artist": "Johnny Cash"
+    },
+    {
+      "quote": "Abhi mujh mein kahin, baaqi thodi si hai zindagi. Jagi dhadkan nayi, jaana zinda hoon main toh abhi.",
+      "artist": "Sonu Nigam"
+    },
+    {
+      "quote": "But I'm a creep, I'm a weirdo. What the hell am I doin' here? I don't belong here.",
+      "artist": "Radiohead"
+    },
+    {
+      "quote": "Jai ho, jai ho. Aaja aaja jind shamiyane ke tale. Aaja jariwale nile aasman ke tale. Jai ho.",
+      "artist": "A. R. Rahman, Sukhwinder Singh"
+    },
+    {
+      "quote": "Lights will guide you home and ignite your bones, and I will try, I will try to fix you.",
+      "artist": "Coldplay"
+    }
+  ]
+}

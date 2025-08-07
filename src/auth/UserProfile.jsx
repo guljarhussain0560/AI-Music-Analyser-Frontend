@@ -172,7 +172,7 @@ export default function App() {
     };
 
     return (
-        <div className="bg-gray-900 min-h-screen w-full p-4">
+        <div className=" min-h-screen w-full p-4">
             {/* Example placement of the profile button */}
             <div className="flex justify-end">
                 <ProfileButton />

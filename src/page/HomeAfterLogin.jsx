@@ -54,12 +54,9 @@ const HomeAfterLogin = () => {
             if (file) {
                 console.log("Processing file upload...");
                 const formData = new FormData();
-                // UPDATED: Changed 'file' to 'audio_file' to match the backend
                 formData.append('audio_file', file);
-                // UPDATED: Changed 'id' to 'user_id' to match the backend
                 formData.append('user_id', currentUserId);
 
-                // UPDATED: Changed endpoint to '/process/process_audio_file'
                 response = await api.post('/process/process_audio_file', formData, {
                     headers: {
                         'Content-Type': 'multipart/form-data',
@@ -166,7 +163,8 @@ const HomeAfterLogin = () => {
                         </button>
                     </div>
                 </form>
-                <div className="mt-10">
+                {/* UPDATED: Added responsive classes to hide on mobile and show on medium screens and up */}
+                <div className="mt-10 hidden md:block">
                     <Quotes />
                 </div>
             </div>

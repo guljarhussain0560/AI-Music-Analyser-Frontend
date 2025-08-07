@@ -4,7 +4,7 @@ import Quotes from '../design/Quotes.jsx'; // Adjust the path if necessary
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen text-white text-center p-4">
+    <div className="flex flex-col items-center justify-center min-h-screen text-white text-center p-4 bg-gray-900">
       {/* The MusicalParticleBackground component has been removed from here
           because it is already being rendered by the main App.jsx layout. */}
       <div className="max-w-3xl">
@@ -14,9 +14,14 @@ const Home = () => {
         >
           Music Analyser
         </h1>
-        <Quotes />
+        
+        {/* UPDATED: Wrapped Quotes component to hide on mobile and show on medium screens and up */}
+        <div className="hidden md:block">
+          <Quotes />
+        </div>
+
         <p 
-          className="text-xl md:text-2xl font-light text-gray-300 mb-10"
+          className="text-xl md:text-2xl font-light text-gray-300 mb-10 mt-4" // Added mt-4 for spacing
         >
           Unlock the stories hidden in your sound. Analyze your music library like never before.
         </p>

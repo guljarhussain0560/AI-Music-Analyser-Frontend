@@ -18,13 +18,19 @@ import ProtectedRoute from './compoments/ProtectedRoute'; // <-- Import the guar
 // Import the background
 import MusicalParticleBackground from './design/Background';
 
-function App() {
+export default function App() {
   return (
     <Router>
+      {/* This div is likely for a top-level component that should always be visible */}
       <div className="max-w-7xl mx-auto">
         <MusicChatbot />
       </div>
-      <MusicalParticleBackground />
+
+      {/* UPDATED: Wrapped the background component to hide on mobile (hidden) and show on medium screens and up (md:block) */}
+      <div className="hidden md:block">
+        <MusicalParticleBackground />
+      </div>
+      
       <Routes>
         {/* --- PUBLIC ROUTES --- */}
         <Route path="/" element={<Home />} />
@@ -37,7 +43,6 @@ function App() {
           <Route path="/home-after-login" element={<HomeAfterLogin />} />
           <Route path="/song/:id" element={<Song />} />
           <Route path="/lyrics/:songId" element={<Lyrics />} />
-
           {/* You can add more protected routes here later */}
         </Route>
 
@@ -47,5 +52,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;

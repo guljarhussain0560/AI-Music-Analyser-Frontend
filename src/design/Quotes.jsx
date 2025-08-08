@@ -9,7 +9,8 @@ const MusicWave = () => {
         waveContainer: {
             display: 'flex',
             justifyContent: 'center',
-            alignItems: 'center',
+            // Align bars to the bottom to scale upwards
+            alignItems: 'flex-end',
             height: '80px',
             width: '100%',
             maxWidth: '400px',
@@ -17,10 +18,13 @@ const MusicWave = () => {
         },
         waveBar: {
             width: '5px',
+            height: '100%', // Set a max height
             backgroundColor: '#00bcd4',
             animationName: 'wave',
             animationIterationCount: 'infinite',
             animationTimingFunction: 'linear',
+            // Set the origin for scaling to the bottom
+            transformOrigin: 'bottom',
         }
     };
 
@@ -29,7 +33,6 @@ const MusicWave = () => {
             {[...Array(30)].map((_, i) => (
                 <span key={i} style={{
                     ...styles.waveBar,
-                    height: `${Math.random() * 5 + 5}px`, // Initial small height
                     animationDuration: `${Math.random() * (1 - 0.3) + 0.8}s`,
                     animationDelay: `${Math.random() * 1}s`,
                 }}></span>
@@ -69,7 +72,7 @@ const Quotes = () => {
         return () => clearInterval(intervalRef.current);
     }, [getNewQuote]);
 
-    // This effect handles the word-by-word "electric shock" animation.
+    // This effect handles the word-by-word animation.
     useEffect(() => {
         // Clear any ongoing animation timeouts from the previous quote
         if (timeoutRef.current) {
@@ -118,10 +121,9 @@ const Quotes = () => {
     };
 
     const styles = {
+        // This style is now just for the inner flex container
         quoteBox: {
-            maxWidth: '900px',
             width: '100%',
-            padding: '2rem 1rem',
             fontFamily: "'Roboto Mono', monospace",
             display: 'flex',
             flexDirection: 'column',
@@ -131,6 +133,7 @@ const Quotes = () => {
         textContainer: {
             width: '100%',
             textAlign: 'center',
+            height: '200px',
         },
         quoteText: {
             fontSize: 'clamp(1.2rem, 3vw, 1.8rem)',
@@ -138,68 +141,77 @@ const Quotes = () => {
             color: '#f0f0f0',
             lineHeight: '1.6',
             marginBottom: '1.5rem',
-            minHeight: '140px',
             display: 'block',
         },
         artistText: {
             fontSize: 'clamp(0.9rem, 2vw, 1.1rem)',
             fontWeight: '700',
             color: '#00bcd4',
-            minHeight: '30px',
             display: 'block',
         },
         animations: `
+            /* --- Responsive Container Styles --- */
+            /* Mobile First: Solid Card Design */
+            .quote-container {
+                width: 90%;
+                max-width: 500px;
+                margin: 2rem auto;
+                padding: 1.5rem;
+
+                border-radius: 16px;
+
+                box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+                transition: all 0.3s ease-in-out;
+            }
+
+            /* Desktop: Glassmorphism Design */
+            @media (min-width: 768px) {
+                .quote-container {
+                    max-width: 900px;
+                    padding: 2.5rem;
+
+
+                    -webkit-backdrop-filter: blur(10px);
+                    border-radius: 20px;
+
+                }
+            }
+            
+            /* --- Animation Styles --- */
             .electric-word {
                 display: inline-block;
                 opacity: 0;
-                animation: thor-shock 0.9s ease-out forwards;
+                animation: thor-shock 0.8s ease-out forwards;
             }
             
             @keyframes thor-shock {
                 0% {
                     opacity: 0;
-                    transform: translateX(200px) skewX(-30deg);
-                    filter: blur(5px);
+                    transform: translateX(50px) skewX(-20deg);
+                    filter: blur(4px);
                 }
-                40% {
+                50% {
                     opacity: 0.8;
-                    transform: translateX(20px) skewX(20deg);
+                    transform: translateX(-10px) skewX(10deg);
                     color: #fff;
                     text-shadow:
                         0 0 5px #fff,
                         0 0 15px #8effff,
-                        0 0 30px #00e5ff,
-                        0 0 50px #00e5ff;
-                    filter: blur(2px);
-                }
-                45% {
-                    transform: translateX(-100px) skewX(0deg);
-                }
-                50% {
-                    transform: translateX(50px) skewX(-10deg);
-                     text-shadow:
-                        0 0 2px #fff,
-                        0 0 8px #8effff,
-                        0 0 15px #00e5ff;
-                }
-                55% {
-                    transform: translateX(-20px) skewX(10deg);
-                }
-                70% {
-                    transform: translateX(10px) skewX(-5deg);
-                    color: #f0f0f0;
-                    text-shadow: none;
-                    filter: blur(0);
+                        0 0 30px #00e5ff;
+                    filter: blur(1px);
                 }
                 100% {
                     opacity: 1;
                     transform: translateX(0) skewX(0);
+                    color: inherit;
+                    text-shadow: none;
+                    filter: blur(0);
                 }
             }
 
             @keyframes wave {
-                0%, 100% { height: 5px; }
-                50% { height: 60px; }
+                0%, 100% { transform: scaleY(0.1); }
+                50% { transform: scaleY(1.0); }
             }
         `,
     };
@@ -207,16 +219,19 @@ const Quotes = () => {
     return (
         <>
             <style>{styles.animations}</style>
-            <div id="quote-box" style={styles.quoteBox}>
-                <div style={styles.textContainer}>
-                    <blockquote id="text" style={styles.quoteText}>
-                        {renderTextWithAnimation(typedQuote)}
-                    </blockquote>
-                    <figcaption id="author" style={styles.artistText}>
-                        {renderTextWithAnimation(typedArtist)}
-                    </figcaption>
+            {/* The new responsive container */}
+            <div className="quote-container">
+                <div id="quote-box" style={styles.quoteBox}>
+                    <div style={styles.textContainer}>
+                        <blockquote id="text" style={styles.quoteText}>
+                            {renderTextWithAnimation(typedQuote)}
+                        </blockquote>
+                        <figcaption id="author" style={styles.artistText}>
+                            {renderTextWithAnimation(typedArtist)}
+                        </figcaption>
+                    </div>
+                    <MusicWave />
                 </div>
-                <MusicWave />
             </div>
         </>
     );

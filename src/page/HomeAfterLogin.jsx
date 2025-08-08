@@ -88,8 +88,8 @@ const HomeAfterLogin = () => {
     };
 
     return (
-        <div className="relative flex flex-col items-center justify-center min-h-screen bg-gray-900 text-white p-4">
-            <MusicChatbot />
+        <div className="relative flex flex-col items-center justify-center min-h-screen text-white p-4">
+            {/* <MusicChatbot /> */}
             <div className="absolute top-4 right-4 z-10">
                 <UserProfilePage />
             </div>
@@ -102,9 +102,7 @@ const HomeAfterLogin = () => {
                 <h1 className="text-5xl md:text-6xl font-bold mb-3" style={{ textShadow: '0 2px 8px rgba(0,0,0,0.5)' }}>
                     Analyze a New Song
                 </h1>
-                <p className="text-lg text-gray-400 mb-10">
-                    Paste a YouTube or Spotify link, or upload an audio file below.
-                </p>
+
 
                 <form onSubmit={handleSubmit} className="w-full">
                     {/* URL Input */}
@@ -153,6 +151,8 @@ const HomeAfterLogin = () => {
                         </div>
                     )}
 
+                    <br /><br />
+
                     <div className="mt-6">
                         <button
                             type="submit"
@@ -163,8 +163,12 @@ const HomeAfterLogin = () => {
                         </button>
                     </div>
                 </form>
+                <br />
+                <br />
+                <br />
+
                 {/* UPDATED: Added responsive classes to hide on mobile and show on medium screens and up */}
-                <div className="mt-10 hidden md:block">
+                <div >
                     <Quotes />
                 </div>
             </div>

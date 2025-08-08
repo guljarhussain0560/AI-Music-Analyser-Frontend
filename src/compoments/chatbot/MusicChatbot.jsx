@@ -256,7 +256,7 @@ function MusicChatbot() {
                 </div>
             )}
 
-            <div className="fixed bottom-4 right-4 z-50 font-sans chatbot-container">
+            <div className="fixed bottom-4 right-0 z-50 font-sans chatbot-container">
                 {/* Chat Window */}
                 <div className={`transition-all duration-500 ease-in-out ${isOpen ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10 pointer-events-none'}`}>
                     <div

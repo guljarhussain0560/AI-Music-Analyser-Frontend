@@ -13,6 +13,7 @@ import Other from './Other';
 import Guitar from './Guitar';
 import Flute from './Flute';
 import Violin from './Violin';
+import MusicChatbot from '../compoments/chatbot/MusicChatbot.jsx';
 
 
 
@@ -35,7 +36,7 @@ const AccordionWrapper = ({ title, children }) => {
 };
 
 const Card = ({ title, icon, children, className }) => (
-    <div className={`bg-gray-800 bg-opacity-50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 shadow-lg flex flex-col ${className}`}>
+    <div className={`bg-gray-800/50 bg-opacity-50 backdrop-blur-sm border border-gray-700 rounded-2xl p-6 shadow-lg flex flex-col ${className}`}>
         <div className="flex items-center mb-4">
             {icon}
             <h3 className="text-xl font-bold text-white ml-3">{title}</h3>
@@ -46,8 +47,8 @@ const Card = ({ title, icon, children, className }) => (
 
 const InfoItem = ({ label, value, unit = '' }) => (
     <div className="flex justify-between items-center py-2 border-b border-gray-700 last:border-b-0">
-        <span className="text-gray-400">{label}</span>
-        <span className="text-white font-semibold">{String(value ?? 'N/A')}{unit}</span>
+        <span className="text-gray-400 font-semibold">{label}</span>
+        <span className="text-white font-bold">{String(value ?? 'N/A')}{unit}</span>
     </div>
 );
 
@@ -285,10 +286,10 @@ export default function Song() {
     const fileName = title ? title.split(/[\\/]/).pop().replace('.mp3', '') : "Untitled Track";
 
     return (
-        <div className="bg-gray-900 text-gray-300 min-h-screen p-4 md:p-8 font-sans">
+        <div className=" text-gray-300  min-h-screen p-4 md:p-8 font-sans">
 
             <div className="max-w-7xl mx-auto">
-                <header className="mb-8 p-6 bg-gray-800 rounded-2xl shadow-xl flex items-center justify-between">
+                <header className="mb-8 p-6 bg-gray-800/50 border border-gray-700 bg-opacity-50  backdrop-blur-sm rounded-2xl shadow-xl flex items-center justify-between">
                     <div>
                         <h1 className="text-4xl font-bold text-white">{fileName}</h1>
                         <p className="text-purple-400">{summary.estimated_key || 'N/A'} {summary.mode || ''}</p>
@@ -330,11 +331,11 @@ export default function Song() {
 
                         </div>
                         <br />
-                        <h2 className="text-3xl font-bold text-white mb-6 text-center">
+                        <h2 className="text-5xl font-bold text-white mb-10 text-center">
                             Instrument Analyses
                         </h2>
 
-                        <div className="space-y-4 max-w-4xl mx-auto">
+                        <div className="space-y-8 max-w-7xl mx-auto">
                             <AccordionWrapper title="Bass Analysis"><Bass splitsId={splitsId} /></AccordionWrapper>
                             <AccordionWrapper title="Piano Analysis"><Piano splitsId={splitsId} /></AccordionWrapper>
                             <AccordionWrapper title="Drum Analysis"><Drum splitsId={splitsId} /></AccordionWrapper>
@@ -346,6 +347,9 @@ export default function Song() {
                         </div>
                     </div>
                 )}
+            </div>
+            <div>
+                <MusicChatbot />
             </div>
         </div>
     );

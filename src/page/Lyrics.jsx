@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import api from '../api/api.js'; // Adjust the path if necessary
+import api from '../api/api.js'; 
+import MusicChatbot from '../compoments/chatbot/MusicChatbot.jsx';
 
 // Utility to parse LRC format
 const parseLrc = (lrcString) => {
@@ -36,7 +37,7 @@ const AiIcon = () => (
 
 // Component to render a block of lyrics with animation
 const LyricsBlock = ({ title, lyrics, icon, panelClass }) => (
-    <div className={`mt-10 rounded-2xl bg-gray-900/80 backdrop-blur-sm border border-gray-700/50 transition-all duration-300 hover:border-gray-500/80 hover:shadow-2xl ${panelClass}`}>
+    <div className={`mt-10 rounded-2xl backdrop-blur-sm border transition-all duration-300 hover:border-gray-500/80 hover:shadow-2xl ${panelClass}`}>
         <div className="flex items-center gap-4 p-4 border-b border-gray-700/50">
             {icon}
             <h2 className="text-xl font-bold tracking-wider text-gray-200">{title}</h2>
@@ -201,6 +202,7 @@ function Lyrics() {
                     background-size: 40px 40px;
                 }
             `}</style>
+            <MusicChatbot />
         </div>
     );
 }

@@ -161,11 +161,11 @@ function SignUpComponent() {
           </div>
 
           {/* --- FIX: Use the GoogleLogin component directly --- */}
-          <div className="mb-4">
+          <div className="mb-4 flex justify-center">
             <GoogleLogin
               onSuccess={handleGoogleSuccess}
               onError={handleGoogleError}
-              type="standard"
+              type="icon"
               theme="outline"
               size="large"
               text="continue_with"

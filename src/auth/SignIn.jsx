@@ -174,7 +174,7 @@ function SignInComponent() {
                         <GoogleLogin
                             onSuccess={handleGoogleSuccess}
                             onError={handleGoogleError}
-                            type="standard"
+                            type="icon"
                             theme="outline"
                             size="large"
                             text="continue_with"

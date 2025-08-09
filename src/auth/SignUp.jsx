@@ -165,12 +165,12 @@ function SignUpComponent() {
             <GoogleLogin
               onSuccess={handleGoogleSuccess}
               onError={handleGoogleError}
-              type="icon"
+              type="standard"
               theme="outline"
               size="large"
-              text="continue_with"
+              text="continue_with_google"
               shape="rectangular"
-            
+              width={380}
               logo_alignment="left"
             />
           </div>

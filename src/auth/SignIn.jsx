@@ -170,7 +170,7 @@ function SignInComponent() {
                     </div>
                     
                     {/* --- FIX: Use the <GoogleLogin> component for custom rendering --- */}
-                    <div className="mb-4">
+                    <div className="mb-4 flex justify-center">
                         <GoogleLogin
                             onSuccess={handleGoogleSuccess}
                             onError={handleGoogleError}
@@ -179,7 +179,7 @@ function SignInComponent() {
                             size="large"
                             text="continue_with"
                             shape="rectangular"
-                            
+
                             logo_alignment="left"
                         />
                     </div>

@@ -13,7 +13,7 @@ const GOOGLE_CLIENT_ID = import.meta.env.VITE_GOOGLE_CLIENT_ID;
 const BrandLogo = () => (
   <div className="w-34 h-34 mb-9">
     <img 
-      src="../../public/vite.png" 
+      src="./vite.png" 
       alt="Brand Logo" 
       className="w-full h-full object-cover rounded-full border-2 border-white/30"
       onError={(e) => {
@@ -179,7 +179,7 @@ function SignInComponent() {
                             size="large"
                             text="continue_with"
                             shape="rectangular"
-                            width="100%"
+                            
                             logo_alignment="left"
                         />
                     </div>

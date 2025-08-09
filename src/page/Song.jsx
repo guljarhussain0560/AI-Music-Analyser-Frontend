@@ -278,11 +278,6 @@ export default function Song() {
     };
 
 
-
-    // const handleShowLyrics = () => {
-    //     navigate(`/lyrics/${id}`);
-    // };
-
     const fileName = title ? title.split(/[\\/]/).pop().replace('.mp3', '') : "Untitled Track";
 
     return (
@@ -348,7 +343,18 @@ export default function Song() {
                     </div>
                 )}
             </div>
-            <div>
+            <div class="
+  fixed      
+  bottom-5   
+  right-5    
+  z-50
+
+  p-4
+  bg-gray-800
+  text-white
+  rounded-lg
+  shadow-xl
+">
                 <MusicChatbot />
             </div>
         </div>

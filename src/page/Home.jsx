@@ -2,9 +2,25 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Quotes from '../design/Quotes.jsx'; // Adjust the path if necessary
 
+
+const BrandLogo = () => (
+  <div className="w-34 h-34 mb-9">
+    <img
+      src="/vite.png" // Using a relative path from the public folder
+      alt="Brand Logo"
+      className="w-full h-full object-cover rounded-full border-2 border-white/30"
+      onError={(e) => {
+        e.target.onerror = null;
+        e.target.src = "https://placehold.co/96x96/7c3aed/ffffff?text=Logo";
+      }}
+    />
+  </div>
+);
+
 const Home = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-white text-center p-4">
+    <BrandLogo />
       <div className="max-w-3xl">
         <h1
           className="text-6xl md:text-8xl font-bold mb-4"

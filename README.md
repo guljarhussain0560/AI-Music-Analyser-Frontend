@@ -2,7 +2,7 @@
 
 A modern, interactive music analysis web application built with React and Vite. This frontend provides a comprehensive platform for analyzing music tracks, visualizing audio data, extracting instrument-specific information, and exploring music lyrics.
 
-## 🎵 Features
+## Features
 
 - **User Authentication**: Secure sign-in and sign-up with Google OAuth integration
 - **Audio Visualization**: Real-time waveform visualization while playing audio
@@ -17,7 +17,7 @@ A modern, interactive music analysis web application built with React and Vite. 
 - **Responsive Design**: Mobile-friendly interface with Tailwind CSS
 - **Protected Routes**: Secure access to authenticated features
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Framework**: React 19.1.0
 - **Build Tool**: Vite 7.0.4
@@ -29,7 +29,7 @@ A modern, interactive music analysis web application built with React and Vite. 
 - **Authentication**: @react-oauth/google 0.12.2
 - **ESLint**: For code quality and consistency
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 music-analyzer-frontend/
@@ -76,7 +76,7 @@ music-analyzer-frontend/
 └── index.html            # HTML entry point
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -142,7 +142,7 @@ music-analyzer-frontend/
    npm run preview
    ```
 
-## 🔐 Environment Variables
+## Environment Variables
 
 The application requires the following environment variables. Copy `.env.example` to `.env` and update the values:
 
@@ -161,7 +161,7 @@ The application requires the following environment variables. Copy `.env.example
 5. Add your frontend URL to authorized JavaScript origins
 6. Copy the Client ID and paste it in `.env`
 
-## 🔗 API Integration
+## API Integration
 
 The frontend connects to a backend FastAPI server. All API requests are made through `src/api/api.js` which includes:
 
@@ -177,7 +177,7 @@ The frontend connects to a backend FastAPI server. All API requests are made thr
 - `GET /songs/:id` - Get song analysis data
 - `GET /lyrics/:songId` - Get song lyrics
 
-## 🛡️ Authentication
+## Authentication
 
 The application uses Google OAuth 2.0 for authentication:
 
@@ -186,7 +186,7 @@ The application uses Google OAuth 2.0 for authentication:
 - **Token Storage**: Auth tokens are stored in localStorage
 - **Auto Token Injection**: Tokens are automatically included in all API requests
 
-## 🎨 Styling
+## Styling
 
 The project uses **Tailwind CSS 4.1.11** for styling with:
 - Dark-themed UI with gradient accents
@@ -194,7 +194,7 @@ The project uses **Tailwind CSS 4.1.11** for styling with:
 - Backdrop blur effects for modern aesthetics
 - Custom color schemes for music visualization
 
-## 📊 Features in Detail
+## Features in Detail
 
 ### Audio Visualization
 - Real-time waveform display during playback
@@ -219,7 +219,7 @@ AI-powered assistant for:
 - Music discussion and analysis
 - Artist information
 
-## 🚢 Deployment
+## Deployment
 
 The application is configured for deployment on **Vercel** with a `vercel.json` configuration file that:
 - Rewrites all routes to `index.html` for SPA support
@@ -233,7 +233,7 @@ The application is configured for deployment on **Vercel** with a `vercel.json` 
 3. Set environment variables in Vercel project settings
 4. Deploy automatically
 
-## 📝 Project Scripts
+## Project Scripts
 
 | Script | Description |
 |--------|-------------|
@@ -242,7 +242,7 @@ The application is configured for deployment on **Vercel** with a `vercel.json` 
 | `npm run lint` | Run ESLint for code quality |
 | `npm run preview` | Preview production build locally |
 
-## 🐛 Debugging
+## Debugging
 
 ### Common Issues
 
@@ -257,25 +257,25 @@ The application is configured for deployment on **Vercel** with a `vercel.json` 
 - Check **Console** for error messages
 - Check **Application** > **Local Storage** for auth token
 
-## 🤝 Contributing
+## Contributing
 
 1. Create a feature branch (`git checkout -b feature/amazing-feature`)
 2. Commit your changes (`git commit -m 'Add amazing feature'`)
 3. Push to the branch (`git push origin feature/amazing-feature`)
 4. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is part of an internship program.
 
-## 📞 Support
+## Support
 
 For issues or questions:
 - Check existing issues in the repository
 - Create a new issue with detailed description
 - Contact the development team
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - React and Vite communities
 - Google OAuth for authentication
